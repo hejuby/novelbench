@@ -1,5 +1,4 @@
 {
-    "extends": "@marshallku/typescript-config/react-library.json",
     "compilerOptions": {
         "lib": ["dom", "dom.iterable", "esnext"],
         "allowJs": true,
@@ -22,6 +21,6 @@
             "@/*": ["./*"]
         }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+    "include": ["src", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
     "exclude": ["node_modules"]
 }
